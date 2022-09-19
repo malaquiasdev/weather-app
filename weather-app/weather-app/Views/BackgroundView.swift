@@ -18,3 +18,13 @@ struct BackgroundView: View {
           .edgesIgnoringSafeArea(.all)
     }
 }
+
+struct BackgroundView_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            BackgroundView(isNight: .constant(false))
+            BackgroundView(isNight: .constant(true))
+
+        }
+    }
+}

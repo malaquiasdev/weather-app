@@ -62,12 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				287D89FB28D63AE8001A2E13 /* weather_appApp.swift */,
-				287D89FD28D63AE8001A2E13 /* ContentView.swift */,
-				287D8A0928D64508001A2E13 /* DayView.swift */,
-				287D8A0F28D64D94001A2E13 /* FeaturedDayView.swift */,
-				287D8A0B28D64C0E001A2E13 /* BackgroundView.swift */,
-				287D8A1128D64F24001A2E13 /* ChangeWeekButtonView.swift */,
-				287D8A0D28D64D21001A2E13 /* CityTextView.swift */,
+				287D8A1428D89A3D001A2E13 /* Models */,
+				287D8A1328D89A36001A2E13 /* Views */,
+				287D8A1528D89A52001A2E13 /* Resources */,
 				287D89FF28D63AE9001A2E13 /* Assets.xcassets */,
 				287D8A0128D63AE9001A2E13 /* Preview Content */,
 			);
@@ -80,6 +77,49 @@
 				287D8A0228D63AE9001A2E13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		287D8A1328D89A36001A2E13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				287D89FD28D63AE8001A2E13 /* ContentView.swift */,
+				287D8A1628D89A88001A2E13 /* Day */,
+				287D8A1728D89A8D001A2E13 /* Week */,
+				287D8A0928D64508001A2E13 /* DayView.swift */,
+				287D8A0F28D64D94001A2E13 /* FeaturedDayView.swift */,
+				287D8A0B28D64C0E001A2E13 /* BackgroundView.swift */,
+				287D8A1128D64F24001A2E13 /* ChangeWeekButtonView.swift */,
+				287D8A0D28D64D21001A2E13 /* CityTextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		287D8A1428D89A3D001A2E13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		287D8A1528D89A52001A2E13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		287D8A1628D89A88001A2E13 /* Day */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Day;
+			sourceTree = "<group>";
+		};
+		287D8A1728D89A8D001A2E13 /* Week */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Week;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
