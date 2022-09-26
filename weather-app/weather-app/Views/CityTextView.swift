@@ -12,14 +12,18 @@ struct CityTextView: View {
     
     var body: some View {
         Text(cityName)
-            .font(.system(size: 32, weight: .medium, design: .default))
+            .font(.title)
+            .fontWeight(.bold)
             .foregroundColor(.white)
             .padding()
     }
 }
 
+#if DEBUG
 struct CityTextView_Previews: PreviewProvider {
     static var previews: some View {
         CityTextView(cityName: "São Paulo, BR")
+            .background(Color.orange)
     }
 }
+#endif
